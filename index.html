@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>   Calculadora Cientifica</title>
+    <link rel="stylesheet" href="Java.js" />
+</head>
+<body>
+    <style>
+        body {
+            background-color: #333; /* Fondo oscuro para que el texto blanco resalte */
+            color: white; /* Hace que el texto por defecto sea blanco */
+            font-family: Arial, sans-serif; /* Fuente predeterminada para el cuerpo */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Centrar horizontalmente */
+            align-items: center; /* Centrar horizontalmente */
+            height: 100vh; /* Asegura que la altura sea el 100% de la ventana */
+            margin: 0; /* Elimina el margen predeterminado */
+            text-align: center; /* Centra el texto */
+        }
+
+        header h1 span {
+            font-family: 'Franklin Gothic Heavy', sans-serif;
+            font-size: 2.5em; /* Aumenta el tamaño del título */
+        }
+
+        p {
+            font-family: 'Franklin Gothic Heavy', sans-serif; /* Fuente igual al título */
+            font-size: 1.5em; /* Aumenta el tamaño del texto en el párrafo */
+            color: white; /* Asegura que el párrafo sea blanco */
+            margin-top: 20px; /* Espacio arriba del párrafo */
+            line-height: 1.6; /* Aumenta el espacio entre líneas */
+            max-width: 600px; /* Limitar el ancho del párrafo */
+            margin-left: auto; /* Centrar el párrafo */
+            margin-right: auto; /* Centrar el párrafo */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <span>Calculadora Científica</span>
+        </h1>
+    </header>
+    <div>
+        <p>Esta calculadora tiene como propósito ayudar a todo tipo de persona 
+            que necesite saciar sus necesidades en cualquier contexto matemático, ya
+            sea básico, avanzado o simple.
+        </p>
+    </div>
+</body>
+    </div>
+    <style>
+        body {
+            /* degradado del fondo */
+            background: linear-gradient(to bottom, rgb(172, 172, 8) 60%, blue 100%);
+            min-height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
+            margin: 0;
+        }
+    </style>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            position: relative; /* Contenedor relativo */
+        }
+        img {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 150px; /* Ajusta el tamaño de la imagen */
+            height: auto; /* Mantiene la relación de aspecto */
+        }
+    </style></head>
+<body>
+    <img src="IMG_5385.PNG">
+</body>
+</head>
+<body>
+    <style>
+        .calculadora {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            max-width: 300px;
+            margin: 20px auto;
+        }
+        .calculadora button {
+            padding: 20px;
+            font-size: 20px;
+        }
+        .resultado {
+            grid-column: span 4;
+            padding: 20px;
+            font-size: 20px;
+            text-align: right;
+            background-color: #50f8dc;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculadora">
+        <div class="resultado" id="display">0</div>
+        <button onclick="agregarNumero(7)">7</button>
+        <button onclick="agregarNumero(8)">8</button>
+        <button onclick="agregarNumero(9)">9</button>
+        <button onclick="operacion('sumar')">+</button>
+        <button onclick="agregarNumero(4)">4</button>
+        <button onclick="agregarNumero(5)">5</button>
+        <button onclick="agregarNumero(6)">6</button>
+        <button onclick="operacion('restar')">-</button>
+        <button onclick="agregarNumero(1)">1</button>
+        <button onclick="agregarNumero(2)">2</button>
+        <button onclick="agregarNumero(3)">3</button>
+        <button onclick="operacion('multiplicar')">*</button>
+        <button onclick="agregarNumero(0)">0</button>
+        <button onclick="limpiar()">C</button>
+        <button onclick="operacion('dividir')">/</button>
+        <button onclick="calcularResultado()">=</button>
+        <button onclick="funcionCientifica('seno')">sin</button>
+        <button onclick="funcionCientifica('coseno')">cos</button>
+        <button onclick="funcionCientifica('raizCuadrada')">√</button>
+        <button onclick="funcionCientifica('logaritmo')">log</button>
+    </div>
+    <script src="Java.js"></script>
+</body>
