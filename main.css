@@ -1,0 +1,81 @@
+body {
+    background-color: #333;
+    /* Fondo oscuro para que el texto blanco resalte */
+    color: white;
+    /* Hace que el texto por defecto sea blanco */
+    font-family: Arial, sans-serif;
+    /* Fuente predeterminada para el cuerpo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar horizontalmente */
+    height: 100vh;
+    /* Asegura que la altura sea el 100% de la ventana */
+    margin: 0;
+    /* Elimina el margen predeterminado */
+    text-align: center;
+    /* Centra el texto */
+    height: 100vh;
+    position: relative;
+    /* Contenedor relativo */
+    /* degradado del fondo */
+    background: linear-gradient(to bottom, rgb(172, 172, 8) 60%, blue 100%);
+    min-height: 100vh;
+    /* Asegura que el fondo cubra toda la pantalla */
+    margin: 0;
+}
+
+header h1 span {
+    font-family: 'Franklin Gothic Heavy', sans-serif;
+    font-size: 2.5em;
+    /* Aumenta el tamaño del título */
+}
+
+p {
+    font-family: 'Franklin Gothic Heavy', sans-serif;
+    /* Fuente igual al título */
+    font-size: 1.5em;
+    /* Aumenta el tamaño del texto en el párrafo */
+    color: white;
+    /* Asegura que el párrafo sea blanco */
+    margin-top: 20px;
+    /* Espacio arriba del párrafo */
+    line-height: 1.6;
+    /* Aumenta el espacio entre líneas */
+    max-width: 600px;
+    /* Limitar el ancho del párrafo */
+    margin-left: auto;
+    /* Centrar el párrafo */
+    margin-right: auto;
+    /* Centrar el párrafo */
+}
+
+img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    /* Ajusta el tamaño de la imagen */
+    height: auto;
+    /* Mantiene la relación de aspecto */
+}
+.calculadora {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 300px;
+    margin: 20px auto;
+}
+.calculadora button {
+    padding: 20px;
+    font-size: 20px;
+}
+.resultado {
+    grid-column: span 4;
+    padding: 20px;
+    font-size: 20px;
+    text-align: right;
+    background-color: #50f8dc;
+}
